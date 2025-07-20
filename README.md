@@ -1,6 +1,3 @@
-# shopee-order-history-exporter
-A script to export your Shopee order history to an XLSX file
-
 Giới thiệu
 
 Bạn đã bao giờ tò mò mình đã "đốt" bao nhiêu tiền vào Shopee chưa? Script này ra đời để trả lời câu hỏi đó. Bằng cách chạy một đoạn mã Javascript đơn giản ngay trên trình duyệt, bạn có thể lấy toàn bộ dữ liệu từ lịch sử đơn hàng đã hoàn thành, xem báo cáo tổng quan ngay tại cửa sổ Console và xuất ra một file Excel chuyên nghiệp để lưu trữ hoặc phân tích sâu hơn.
