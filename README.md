@@ -6,7 +6,8 @@ Giới thiệu
 Bạn đã bao giờ tò mò mình đã "đốt" bao nhiêu tiền vào Shopee chưa? Script này ra đời để trả lời câu hỏi đó. Bằng cách chạy một đoạn mã Javascript đơn giản ngay trên trình duyệt, bạn có thể lấy toàn bộ dữ liệu từ lịch sử đơn hàng đã hoàn thành, xem báo cáo tổng quan ngay tại cửa sổ Console và xuất ra một file Excel chuyên nghiệp để lưu trữ hoặc phân tích sâu hơn.
 
 Hình ảnh Minh họa
-<img width="2726" height="1506" alt="image" src="https://github.com/user-attachments/assets/df6c7ed8-a5a9-4e5b-bd27-e4f478c96508" />
+<img width="2756" height="1510" alt="image" src="https://github.com/user-attachments/assets/396129a5-f2c9-446f-9318-7bc650f9a121" />
+
 
 Kết quả hiển thị trên Console và file Excel được tải về.
 <img width="2756" height="226" alt="image" src="https://github.com/user-attachments/assets/d7e99a79-1b27-498f-95ae-e53ba7089892" />
@@ -15,8 +16,6 @@ Kết quả hiển thị trên Console và file Excel được tải về.
 ✨ Tính năng Nổi bật
 
 📊 Thống kê Tổng quan: Nhanh chóng xem tổng số tiền đã chi, tổng tiền tiết kiệm được qua voucher/khuyến mãi, tổng số đơn hàng và tổng số sản phẩm đã mua.
-
-📋 Liệt kê Chi tiết: Hiển thị một bảng chi tiết tất cả các sản phẩm đã mua ngay trên Console, bao gồm tên sản phẩm, loại sản phẩm, số lượng và các thông tin về giá.
 
 📄 Xuất ra file Excel (.xlsx): Tự động tạo và tải về một file Excel chứa toàn bộ dữ liệu chi tiết, sẵn sàng để bạn phân tích hoặc lưu trữ.
 
