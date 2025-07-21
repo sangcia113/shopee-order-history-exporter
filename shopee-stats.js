@@ -128,10 +128,16 @@ function processOrders(orders, allProducts) {
         order.info_card?.order_list_cards.forEach(card => {
             card.product_info?.item_groups.forEach(group => {
                 group.items.forEach(item => {
-                    const originalPrice = (item.item_price || 0) / 100000;
-                    const amount = item.amount || 0;
-                    orderOriginalTotal += originalPrice * amount;
-                    itemsInOrder.push(item);
+                    // =========================================================
+                    // Chỉ xử lý những sản phẩm đã được giao thành công (status = 1).
+                    // Bỏ qua những sản phẩm bị trả hàng/hoàn tiền (status = 3).
+                    // =========================================================
+                    if (item.status === 1) {
+                        const originalPrice = (item.item_price || 0) / 100000;
+                        const amount = item.amount || 0;
+                        orderOriginalTotal += originalPrice * amount;
+                        itemsInOrder.push(item);
+                    }
                 });
             });
         });
